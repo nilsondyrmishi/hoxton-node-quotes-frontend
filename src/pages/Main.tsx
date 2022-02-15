@@ -2,7 +2,6 @@ import TheQuoteList from "../components/TheQuoteList"
 import {useEffect, useState} from "react";
 
 function Main(){
-    // @ts-ignore
     const [quotes, setQuotes] = useState<Quote[]>([]);
 
     useEffect(()=>{

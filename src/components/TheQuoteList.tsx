@@ -1,6 +1,5 @@
 import Quote from "./Quote";
 type Props={
-    // @ts-ignore
     theQuotes:Quote[];
 };
 
